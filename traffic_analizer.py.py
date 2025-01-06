@@ -9,6 +9,8 @@ import subprocess
 import re
 from datetime import datetime
 import yaml
+# Данный скрипт позволяет собирать статистику по трафику не маршрутизируемому через тунельный интерфейс. Статистика по трафику отсортирована от меньшего к большему. 
+# Интересный для анализа трафик будет вверху статистики 
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
