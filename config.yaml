@@ -1,0 +1,9 @@
+CLIENT_IPS:
+  - 172.16.0.0/24
+RTIMER: 30
+ROUTER_IP: <ROUTER_IP>
+VPN_SERVER_IP: <VPN_SERVER_IP>
+TRAFFIC_STAT_FILE: /tmp/traffic_stat.log
+ANALYSIS_FILE_TEMPLATE: /tmp/traffic_analysis_{timestamp}.log
+SNIFF_INTERFACE: br-lan
+
